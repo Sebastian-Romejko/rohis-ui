@@ -1,0 +1,66 @@
+#home-page {
+    background-color: rgba(245, 130, 32, 0.9);
+    height: 100vh;
+    font-family: 'Mukta', sans-serif;
+    font-size: 3ex;
+    font-weight: 500;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #f4f5f0;
+    padding-top: 1%;
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 5ex;
+}
+
+.sidebar mat-icon {
+    margin-bottom: 3%;
+}
+
+.app_logo_div
+{
+    margin-left: 15%;
+}
+
+.app_logo_img {
+    width: 80%;
+    padding: 5%;
+}
+
+.menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+}
+
+#logout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 3%;
+    position: absolute;
+    bottom: 0;
+}
+
+.rotated-icon {
+    transform: rotate(180deg);
+}
+
+#main-window {
+    background-color: #f4f5f0;
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}

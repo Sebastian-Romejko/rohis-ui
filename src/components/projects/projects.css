@@ -1,0 +1,36 @@
+.col-status .MuiDataGrid-cellContent {
+    font-size: 0.8em;
+    padding: 2% 8%;
+    border: 1px black solid;
+    border-radius: 30px 30px 30px 30px / 100% 100% 100% 100%;
+}
+
+.status-new .MuiDataGrid-cellContent {
+    color: rgb(51, 133, 255);
+    border-color: rgb(51, 133, 255);
+}
+
+.status-returned .MuiDataGrid-cellContent {
+    color: rgb(255, 153, 0);
+    border-color: rgb(255, 153, 0);
+}
+
+.status-verification .MuiDataGrid-cellContent {
+    color: rgb(166, 77, 255);
+    border-color: rgb(166, 77, 255);
+}
+
+.status-approved .MuiDataGrid-cellContent {
+    color: rgb(46, 184, 46);
+    border-color: rgb(46, 184, 46);
+}
+
+.status-finished .MuiDataGrid-cellContent {
+    color: rgb(0, 128, 0);
+    border-color: rgb(0, 128, 0);
+}
+
+.status-rejected .MuiDataGrid-cellContent {
+    color: rgb(222, 0, 44);
+    border-color: rgb(222, 0, 44);
+}

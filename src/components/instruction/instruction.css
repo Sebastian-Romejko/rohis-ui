@@ -1,0 +1,32 @@
+ #instruction-main
+ {
+     height: 97%;
+     width: 100%;
+     padding-top: 1%;
+ }
+ 
+ /* For pdf */
+
+  .react-pdf__Page__textContent {
+    border: 1px solid darkgrey;
+    box-shadow: 5px 5px 5px 1px #ccc;
+    border-radius: 5px;
+  }
+  
+  .react-pdf__Page__annotations.annotationLayer {
+    padding: 10px;
+  }
+  
+  .react-pdf__Page__canvas {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* For all pages */
+  .all-page-container {
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+  

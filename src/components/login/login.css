@@ -1,0 +1,103 @@
+#login-page {
+    height: 100vh;
+    background-image: url("../../assets/background_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: static;
+    overflow-y: hidden;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+a{
+  text-decoration:none;
+  color:#444444;
+}
+.login-reg-panel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	text-align:center;
+    width:50%;
+	right:0;left:0;
+    margin:auto;
+    height:450px;
+    background-color: rgba(245, 130, 32, 0.9);
+}
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height:130%;
+    position:absolute;
+    top:-50px;
+    width:70%;
+    right:calc(30% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+    box-shadow: 0 0 15px 9px #00000096;
+}
+.login-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    right:0;
+    position:absolute;
+    text-align:left;
+    box-sizing: initial;
+}
+.right-log{right:50px !important;}
+
+.login-show {
+    z-index: 1;
+    display:none;
+    transition:0.3s ease-in-out;
+    color:#242424;
+    text-align:left;
+    padding:50px;
+}
+.login-show{
+    display: block;
+    padding-top: 15%;
+} 
+.login-show input[type="text"], .login-show input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+.login-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+    cursor:pointer;
+}
+.login-show #forgot-password{
+    display:inline-block;
+    padding:10px 0;
+    text-decoration:none;
+    color:rgba(245, 130, 32, 1);
+}
+.login-info 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    color: red;
+    font-size: 1.5em;
+}
+    
+    
+    
