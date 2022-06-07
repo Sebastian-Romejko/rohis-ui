@@ -15,7 +15,7 @@
     border-color: rgb(255, 153, 0);
 }
 
-.status-verification .MuiDataGrid-cellContent {
+.status-in-review .MuiDataGrid-cellContent {
     color: rgb(166, 77, 255);
     border-color: rgb(166, 77, 255);
 }

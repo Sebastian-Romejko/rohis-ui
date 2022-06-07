@@ -33,7 +33,7 @@ export default function Projects() {
                 case 'Zwrócony':
                   return mainClass + ' status-returned';
                 case 'Do weryfikacji':
-                  return mainClass + ' status-verification';
+                  return mainClass + ' status-in-review';
                 case 'Zatwierdzony':
                   return mainClass + ' status-approved';
                 case 'Rozliczony':
